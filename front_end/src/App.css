@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+
+
+@font-face {
+    font-family: 'fontOne';
+    src: url('../src/assets/fonts/Beckan-Personal.otf');
+}
+
+@font-face {
+  font-family: "fontTwo";
+  src: url('../src/assets/fonts/BRICOLAGEGROTESQUE-VARIABLEFONT.TTF');
+}
+
+*{
+    font-family: 'fontTwo';
+}
