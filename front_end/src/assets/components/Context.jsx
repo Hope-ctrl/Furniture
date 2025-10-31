@@ -10,11 +10,12 @@ export const UserProvider = ({ children }) => {
   });
   const [cart, setCart] = useState([]);
   const [openModal, setOpenModal] = useState(null);
+  const [sideBar, setSidebar] = useState(false)
 
   return (
     // setting the values of the context that will be used accross pages 
     <UserContext.Provider
-      value={{ user, setUser, cart, setCart, openModal, setOpenModal }}
+      value={{ user, setUser, cart, setCart, openModal, setOpenModal, sideBar, setSidebar }}
     >
       {children}
     </UserContext.Provider>

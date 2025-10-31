@@ -5,12 +5,14 @@ import Landing from './assets/components/Home/Landing'
 import Home from './assets/pages/Home'
 import LoginForm from './assets/components/Login'
 import SignupForm from './assets/components/SignUp'
+import Dashboard from './assets/pages/Dashboard'
 
 function App() {
 
   return (
     <>
-      <Home/>
+      {/* <Home/> */}
+      <Dashboard/>
     </>
   )
 }
